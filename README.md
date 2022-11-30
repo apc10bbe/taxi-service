@@ -36,9 +36,9 @@ TIPS: all data store at relative DB.
 
 ## :computer: Examples
 
-![login_page](<img src="https://i.paste.pics/16b58765ee6b9f6813c28b96ee36996e.png" width="500" height="370" alt="Screenshot">)
+![login_page](https://i.paste.pics/fcb47fbc106e9c4e71fbd7a7320d08ad.png)
 
-![main_page](<img src="https://i.paste.pics/345b21c574445b471d309c458a9bea6e.png" width="500" height="249" alt="Screenshot">)
+![main_page](https://i.paste.pics/3886bf7cf5c8c477787ddc7edfd4d5a8.png)
 
 ## How to run application
 
@@ -46,9 +46,9 @@ TIPS: all data store at relative DB.
 2. Clone the project to your work space
 3. Install MySQL 8
    * create connection to DB
-4. Create schema using [init_db]()
+4. Create schema using [init_db](https://github.com/apc10bbe/taxi-service/blob/first-version/src/main/resources/init_db.sql)
 5. Create connection to DB
-   * use [ConnectionUtil]() to connect to your DB
+   * use [ConnectionUtil](https://github.com/apc10bbe/taxi-service/blob/first-version/src/main/java/taxi/util/ConnectionUtil.java) to connect to your DB
    * change URL to yours
    * change USERNAME to yours
    * change PASSWORD to yours
