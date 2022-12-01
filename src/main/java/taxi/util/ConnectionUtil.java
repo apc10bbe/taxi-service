@@ -6,11 +6,14 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class ConnectionUtil {
-    private static final String URL = "jdbc:mysql://sql.freedb.tech:3306/"
-            + "freedb_test-taxi-service?serverTimezone=UTC";
-    private static final String USERNAME = "freedb_test-taxi-user";
-    private static final String PASSWORD = "b2K8DWnmgf!hUeu";
-    private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    /*
+    NOTICE
+    Change URL, USERNAME, PASSWORD, JDBC_DRIVER to your data
+    */
+    private static final String URL = "URL";
+    private static final String USERNAME = "USER NAME";
+    private static final String PASSWORD = "PASSWORD";
+    private static final String JDBC_DRIVER = "DRIVER";
 
     static {
         try {

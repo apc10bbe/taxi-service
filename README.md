@@ -5,7 +5,12 @@
 There is simple representation of web application like taxi service 
 with authentication for drivers.
 It based on 3-tier design architecture, that displayed in DAO, 
-Service and Representation levels.
+Service and Representation levels. Field initialization occurs through
+such a principle as Dependency Injection.
+
+<center><h4>BD Structure</h4></center>
+
+![db_structure](https://github.com/mate-academy/jv-join/raw/master/join-db-diagram.png)
 
 ## :clipboard: Functional possibilities
 
@@ -28,11 +33,8 @@ TIPS: all data store at relative DB.
 * [X] MySQL 8.0.22
 * [X] JDBC API
 * [X] Servlet API 4.0.1
-* [X] JSP pages
-* [X] HTML/CSS
-* [X] JSTL 1.2
+* [X] JSP, HTML/CSS, JSTL 1.2
 * [X] Tomcat 9.0.50/9.0.69
-* [X] Field injection
 
 ## :computer: Examples
 
@@ -53,5 +55,13 @@ TIPS: all data store at relative DB.
    * change USERNAME to yours
    * change PASSWORD to yours
    * change JDBC DRIVER to yours
+
+P.S. If you want you can use my data and test it with my DB (you don't need to do points 3-5).
+```
+private static final String URL = "jdbc:mysql://sql.freedb.tech:3306/freedb_test-taxi-service?serverTimezone=UTC";
+private static final String USERNAME = "freedb_test-taxi-user";
+private static final String PASSWORD = "b2K8DWnmgf!hUeu";
+private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+```
 6. Install [Tomcat 9.0.50/9.0.69](https://tomcat.apache.org/download-90.cgi)
 7. Setup configurations on Tomcat and run application
